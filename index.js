@@ -26,6 +26,7 @@ if (imc > 25.0) {
     mostra("Olá " + nome + " o seu imc é " + imc.toFixed(2));
     pulaLinha();
     mostra ("Seu imc está acima do recomendado")
+    mostra ("Busque sempre uma alimentãção saudável")
 }
 
 if (imc >= 18.5 && imc <= 25.0)  {
