@@ -22,13 +22,13 @@ if (imc < 18.5) {
     mostra ("Seu imc está abaixo da média")
 }
 
-if (imc > 35) {
+if (imc > 25.0) {
     mostra("Olá " + nome + " o seu imc é " + imc.toFixed(2));
     pulaLinha();
     mostra ("Seu imc está acima do recomendado")
 }
 
-if (imc >= 18.5 && imc <= 35)  {
+if (imc >= 18.5 && imc <= 25.0)  {
     mostra("Olá " + "<strong>" + nome + "</strong>" + " o seu imc é " + "<strong>" +imc.toFixed(2) + "</strong>");
     pulaLinha();
     mostra ("Você está dentro da média recomendada")
